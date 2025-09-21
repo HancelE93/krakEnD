@@ -1,3 +1,4 @@
 generarSaludo = function (nombre, apellido){
-    return "Hola" + nombre + " " +apellido;
+    let saludo=("Hola " + nombre +" " + apellido);
+    return saludo;
 }

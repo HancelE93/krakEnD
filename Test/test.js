@@ -1,7 +1,8 @@
 saludar=function(){
-    let nombre= recuperartexto("txtnombre")
-    let apellido=recuperartexto("txtapelldio")
-    generarSaludo=(nombre , apellido);
-    return generarSaludo;
-    console.log(generarSaludo)
+    let nombre= recuperarTexto("txtNombre");
+    let apellido=recuperarTexto("txtApellido");
+   let resultado=generarSaludo(nombre , apellido);
+   // return generarSaludo;
+  // console.log(resultado);
+   cambiarTexto("lblResultado",resultado);
 }
