@@ -4,14 +4,31 @@
         <script src="test.js"></script>
          <script src="utilitarios.js"></script>
          <script src="serviciosTest.js"></script>
+         <link href="estilos.css" rel="stylesheet"/>
     </head>
     <body>
-        <h3>INGRESE SU NOMBRE</h3>
-        <input type="text" id="txtNombre"/>
-        <h3>INGRESE SU APELLIDO</h3>
-        <input type="text" id="txtApellido"/>
+        <div class="etiquetas">
+            <div class="titulos">
+            <h3>INGRESE SU NOMBRE</h3>
+         
+           <div class="cuadros">
+            <input class="textoCuadro" type="text" id="txtNombre"/>
+             </div>
+          
+            <h3>INGRESE SU APELLIDO</h3>
+          
+            <div class="cuadros">
+            <input class="textoCuadro" type="text" id="txtApellido"/>
+             </div>   
+        </div>
 
-        <input type="button" value="SALUDAR" onclick="saludar();"/>
+        <div class="cuadros">
+         <input class="boton" type="button" value="SALUDAR" onclick="saludar();"/>
+        </div>
+
+        <div class="resultado">
         <h4 id="lblResultado"></h4>
+        </div>
+
     </body>
 </html>
